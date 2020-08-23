@@ -1,0 +1,22 @@
+{
+  "name": "insomnia-plugin-request-with-decode",
+  "version": "1.0.0",
+  "author": "Phikko <skeezze@gmail.com>",
+  "description": "Insomnia request template tag with decodeURIComponent() handling",
+  "license": "MIT",
+  "repository": "https://github.com/phikko/insomnia-plugin-request-with-decode",
+  "bugs": {
+    "url": "https://github.com/phikko/insomnia-plugin-request-with-decode"
+  },
+  "main": "index.js",
+  "insomnia": {
+    "name": "request-with-decode"
+  },
+  "scripts": {
+    "test": "jest --silent"
+  },
+  "dependencies": {
+    "insomnia-cookies": "^2.2.10",
+    "insomnia-url": "^2.2.10"
+  }
+}
